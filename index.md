@@ -1,7 +1,15 @@
 ---
 title: PTT Workshop
 layout: home
+nav_order: 1
 ---
+
+# Welcome to Creator Low Code Workshop
+{: .fs-9 }
+## Objectives
+In this session, you will get hands-on experience in creating a PTT's *Work from Anywhere (WFA)* application via low code on the ServiceNow platform. We will cover concepts such as Building Data Tables, eForms, User Expeuriences, Integrations and Workflows within App Engine Studio - our low-code application development interface for developers of any level of experience.
+
+
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
