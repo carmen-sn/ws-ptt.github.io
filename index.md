@@ -1,5 +1,5 @@
 ---
-title: Home
+title: PTT Workshop
 layout: home
 ---
 
