@@ -222,20 +222,35 @@ From last exercise, we have configured the form for back office use. In this sec
     ![relative](/images/ex2/51.png)
     
 {:style="counter-reset:1"}
-1.  Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Save**.
+1.  Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Insert Question**.
 
     ![relative](/images/ex2/52.png)
     
-{:style="counter-reset:1"}
-1.  .
+    Name | Selection / Values
+    -------------- | --------------
+    Question type | **Choice**
+    Question subtype | **Record reference**
+    Question label |<span style="color:teal">**Requestor Department**</span>
+    Read-only | **Checked**
 
-    ![relative](/images/ex2/.png)
+    ![relative](/images/ex2/53.png)
     
-{:style="counter-reset:1"}
-1.  .
+    Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Insert Question**.
 
-    ![relative](/images/ex2/.png)
+    ![relative](/images/ex2/54.png)
     
+    Click **Auto-populate** tab, **select the question this depends on** as **Requestor \| sys_user]**, and **Select the filed that contains the value you want to set** as **Department**
+
+    ![relative](/images/ex2/55.png)
+
+    Click **Insert Question**.
+    
+{:style="counter-reset:none"}
+1.  The Questions should look similar to the below. Click **Save**.
+
+    ![relative](/images/ex2/56.png)
+
+
 {:style="counter-reset:none"}
 1.  Return to ServiceNow Platform home page, you can do so by visiting the base URL (i.e. **http://<span style="color:teal">\[replace_with_your_instance_ID\]</span>.service-now.com**) in a new browser tab.  
 
@@ -275,6 +290,6 @@ From last exercise, we have configured the form for back office use. In this sec
     Click the **Update** button. 
 
 {:style="counter-reset:none"}
-1.  
+1.  Close the **Studio** browser tab. 
 
-    ![relative](/images/ex2/45.png)
+[Next Exercise 3](/pages/ex3.html){: .btn .btn-purple }
