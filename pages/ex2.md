@@ -180,32 +180,101 @@ From last exercise, we have configured the form for back office use. In this sec
 
     ![relative](/images/ex2/24.png)
     
-{:style="counter-reset:none"}
-1.  
-
-    ![relative](/images/ex2/25.png)
     
 {:style="counter-reset:none"}
-1.  
-
-    ![relative](/images/ex2/26.png)
-    
-{:style="counter-reset:none"}
-1.  
-
-    ![relative](/images/ex2/27.png)
-    
-{:style="counter-reset:none"}
-1.  
-
-    ![relative](/images/ex2/28.png)
-    
-{:style="counter-reset:none"}
-1.  
-
-    ![relative](/images/ex2/29.png)
-    
-{:style="counter-reset:none"}
-1.  
+1.  From Settings, Check **Hide 'Add to wishlist' button** and Check **Hide attachment button**.  Click **Continue to Access** button. 
 
     ![relative](/images/ex2/30.png)
+    
+{:style="counter-reset:none"}
+1.  From Access, select **Available for** as **Any User**.  Click **Continue to Review and Submit**. 
+
+    ![relative](/images/ex2/31.png)
+    
+{:style="counter-reset:none"}
+1.  Click **Submit**
+
+    ![relative](/images/ex2/32.png)
+    
+    
+## Optional: Display requestor info in the form
+{: .text-blue-100}
+
+{:style="counter-reset:1"}
+1.  In AES, return to **App Home** tab, click open the **PTT WFA Requests** record producer.
+
+    ![relative](/images/ex2/50.png)
+    
+{:style="counter-reset:1"}
+1.  From the menu, click **Questions**, then add a new question in the **WFA Request** container:
+
+    Name | Selection / Values
+    -------------- | --------------
+    Question type | **Choice**
+    Question subtype | **Record reference**
+    Map to a specific field on the table | **Checked** 
+    Table field | **Requestor** 
+    Question label |<span style="color:teal">**Requestor**</span>
+    Read-only | **Checked**
+
+    This is what the question look like:
+
+    ![relative](/images/ex2/51.png)
+    
+{:style="counter-reset:1"}
+1.  Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Save**.
+
+    ![relative](/images/ex2/52.png)
+    
+{:style="counter-reset:1"}
+1.  .
+
+    ![relative](/images/ex2/.png)
+    
+{:style="counter-reset:1"}
+1.  .
+
+    ![relative](/images/ex2/.png)
+    
+{:style="counter-reset:none"}
+1.  Return to ServiceNow Platform home page, you can do so by visiting the base URL (i.e. **http://<span style="color:teal">\[replace_with_your_instance_ID\]</span>.service-now.com**) in a new browser tab.  
+
+    From the **All** navigator, search for <span style="color:teal">**Studio**</span>, and select **Studio**.  This will launch the pro-coder Studio tool.  
+
+    ![relative](/images/ex2/40.png)
+    
+{:style="counter-reset:none"}
+1.  From Select Application window, search for <span style="color:teal">**PTT**</span> and click on the Application **PTT**.
+
+    ![relative](/images/ex2/41.png)
+    
+{:style="counter-reset:none"}
+1.  Note that the **Application Explore** on the left sidebar shows the entire structure of the PTT application you have created using **AES** low code tool.  In the **Service Catalog > Record Producers** section, click **PTT WFA Requests** to open the record producer we previosly created using AES. 
+
+    ![relative](/images/ex2/42.png)
+
+{:style="counter-reset:none"}
+1.  From the related list, select the C**atalog Client Scripts** tab. Click **New** to create a new client script.
+
+    ![relative](/images/ex2/43.png)
+
+{:style="counter-reset:none"}
+1.  From the Catalog Client Script form, enter the following info:
+
+    Name | Selection / Values
+    -------------- | --------------
+    Name | <span style="color:teal">**Requestor is Me**</span>
+    UI type | **All**
+    Type | **onLoad** 
+    Applies on a Catalog Item view | **Checked** 
+    Applies on Target Record| **Checked**
+    Script |<span style="color:teal">**g_form.setValue('requestor', g_user.userID);**</span>
+
+    ![relative](/images/ex2/44.png)
+
+    Click the **Update** button. 
+
+{:style="counter-reset:none"}
+1.  
+
+    ![relative](/images/ex2/45.png)
