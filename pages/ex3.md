@@ -53,10 +53,20 @@ In this section we will test the record produce form created in Exercise 2. We w
 
 {:style="counter-reset:none"}
 1. Now that Billie's **manager** is shown, click **Krystle Stika**. 
+
    ![relative](images/ex3/22.png)
 
+    Click the **Role** tab from the related list, click **Edit**. 
+    
+    ![relative](images/ex3/23.png)
 
+    From Collections, search for **approver**, identify the user role as **approver_user**, add this role for Krystle.  
 
+    ![relative](images/ex3/24.png)
+
+    Click Update on Krystle's user record. 
+
+    ![relative](images/ex3/25.png)
 
 {:style="counter-reset:none"}
 1. Click the top-right **user icon**, from the drop-down select **Impersonate user**.

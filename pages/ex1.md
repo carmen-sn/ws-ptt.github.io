@@ -165,7 +165,27 @@ We will now create a table to capture the WFA requests.
 
     ![relative](images/ex1/14g.png)
 
+{:style="counter-reset:none"}
 1. Click **Save**. 
+
+{:style="counter-reset:none"}
+1. We would like to format the table list layout to show the relevant fields. Click the 3 dots next to data pill, select **Spreadsheet** for the dropdown.
+
+    ![relative](images/ex1/30.png)
+
+{:style="counter-reset:none"}
+1. Click **Manage columns** pill
+
+    ![relative](images/ex1/31.png)
+
+{:style="counter-reset:none"}
+1. Select the data fields as shown below.  Click **Apply**.
+
+    ![relative](images/ex1/32.png)
+
+    The list view should be similar to the following:
+
+    ![relative](images/ex1/33.png)
     
 
 ## Create the Backoffice eForm 

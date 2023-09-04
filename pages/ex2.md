@@ -265,60 +265,6 @@ From last exercise, we have configured the form for back office use. In this sec
 1.  Click **Submit**
 
     ![relative](images/ex2/32.png)
-    
-    
-## Optional: Display requestor info in the form
-{: .text-blue-100}
-
-{:style="counter-reset:1"}
-1.  In AES, return to **App Home** tab, click open the **PTT WFA Requests** record producer.
-
-    ![relative](images/ex2/50.png)
-    
-{:style="counter-reset:1"}
-1.  From the menu, click **Questions**, then add a new question in the **WFA Request** container:
-
-    Name | Selection / Values
-    -------------- | --------------
-    Question type | **Choice**
-    Question subtype | **Record reference**
-    Map to a specific field on the table | **Checked** 
-    Table field | **Requestor** 
-    Question label |<span style="color:teal">**Requestor**</span>
-    Read-only | **Checked**
-
-    This is what the question look like:
-
-    ![relative](images/ex2/51.png)
-    
-{:style="counter-reset:1"}
-1.  Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Insert Question**.
-
-    ![relative](images/ex2/52.png)
-    
-    Name | Selection / Values
-    -------------- | --------------
-    Question type | **Choice**
-    Question subtype | **Record reference**
-    Question label |<span style="color:teal">**Requestor Department**</span>
-    Read-only | **Checked**
-
-    ![relative](images/ex2/53.png)
-    
-    Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Insert Question**.
-
-    ![relative](images/ex2/54.png)
-    
-    Click **Auto-populate** tab, **select the question this depends on** as **Requestor \| sys_user]**, and **Select the filed that contains the value you want to set** as **Department**
-
-    ![relative](images/ex2/55.png)
-
-    Click **Insert Question**.
-    
-{:style="counter-reset:none"}
-1.  The Questions should look similar to the below. Click **Save**.
-
-    ![relative](images/ex2/56.png)
 
 ## Configure Requestor as Logged in User
 {: .text-blue-100}
