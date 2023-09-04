@@ -21,29 +21,30 @@ In this section we will test the record produce form created in Exercise 2. We w
 {:style="counter-reset:none"}
 1.  In the **How can we help?** search bar, search for <span style="color:teal">**wfa request**</span>. 
 
-    ![relative](/images/ex3/01.png)
+    ![relative](images/ex3/01.png)
 
 {:style="counter-reset:none"}
 1.  Click the **Request** button of the returned **PTT WFA Request** record producer.  
 
-    ![relative](/images/ex3/02.png)
+    ![relative](images/ex3/02.png)
 
 {:style="counter-reset:none"}
 1.  This opens a new PTT WFA Request form.  Fill in the form. Click **Submit**
 
-    ![relative](/images/ex3/03.png)
+    ![relative](images/ex3/03.png)
 
     > Note: Only if you have completed the optional items in Exercise 2, you will see the Requestor and Requestor Department is auto populated as disply \(read-only) information for the requestor.  
     
 {:style="counter-reset:none"}
 1.  The new request is then submitted. 
 
-    ![relative](/images/ex3/04.png)
+    ![relative](images/ex3/04.png)
 
 {:style="counter-reset:none"}
 1.  
 
-    ![relative](/images/ex3/0@.png)
+    ![relative](images/ex3/0@.png)
+
 
 
 [Next Exercise 4](/pages/ex4.html){: .btn .btn-purple }
