@@ -41,6 +41,22 @@ In this section we will test the record produce form created in Exercise 2. We w
 
     Click **Update** button to complete updating Billie's record. 
 
+{:style="counter-reset:none"}
+1. Click the settings icon to configure the user list layout to show Billie's manager info.
+
+   ![relative](images/ex3/20.png)
+
+{:style="counter-reset:none"}
+1. Select the Personalized list as shown below.  Click **OK**.
+
+   ![relative](images/ex3/21.png)
+
+{:style="counter-reset:none"}
+1. Now that Billie's **manager** is shown, click **Krystle Stika**. 
+   ![relative](images/ex3/22.png)
+
+
+
 
 {:style="counter-reset:none"}
 1. Click the top-right **user icon**, from the drop-down select **Impersonate user**.
