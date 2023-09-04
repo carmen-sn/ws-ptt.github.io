@@ -250,4 +250,4 @@ We will now create a table to capture the WFA requests.
 
 Congratulations, you have completed Exercise 1 and now have a complete way to store the WFA requests from your employees.
 
-[Next Exercise 2](pages/ex2.html){: .btn .btn-purple }
+[Next Exercise 2](ex2.html){: .btn .btn-purple }

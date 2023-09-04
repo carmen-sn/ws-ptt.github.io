@@ -117,23 +117,77 @@ From last exercise, we have configured the form for back office use. In this sec
 
     ![relative](images/ex2/18.png)
     
-{:style="counter-reset:none"}
-1.  From the Choices tab, in Settings, **Check** the **Include non choice**. In the Available Choices section, enter:
+    From the Choices tab, in Settings, **Check** the **Include non choice**. In the Available Choices section, enter:
 
     Display name | Value
     -------------- | --------------
     **WFA for self** |  wfa_for_self
-    **WFA for region** | wfa_for_region
+    **WFA for Region** | wfa_for_region
 
     Click **Continue to Default value button**. 
 
     ![relative](images/ex2/19.png)
     
-{:style="counter-reset:none"}
-1.  From the Default value tab, select **WFA for self** as the Default value.  Note the option to preview the question on the right sidebar, try out the preview.  Click **Insert question** button. 
+    From the Default value tab, select **WFA for self** as the Default value.  Note the option to preview the question on the right sidebar, try out the preview.  Click **Insert question** button. 
 
     ![relative](images/ex2/20.png)
+
+{:style="counter-reset:none"}
+1.  Repeat inserting questions in the WFA Request container:
+
+    Name | Selection / Values
+    -------------- | --------------
+    Question type | **Choice**
+    Question subtype | **Record reference**
+    Map to a specific field on the table | **Checked** 
+    Table field | **Requestor** 
+    Question label |<span style="color:teal">**Requestor**</span>
+    Mandatory | **Read-only**
+    Additional Details >> Source Table | **User \[sys_user]**
+
+    ![relative](images/ex2/20a.png)
+
+    Click **Continue to Additional details** button. Select <span style="color:teal">**User \[sys_user]**</span> as the **Source table**.  Click the **Insert question** button.
     
+    ![relative](images/ex2/20c.png)
+
+
+1. Repeat inserting questions in the WFA Request container, this time we are going to insert read-only information about the requestor.
+
+    Name | Selection / Values
+    -------------- | --------------
+    Question type | **Choice**
+    Question subtype | **Record reference**
+    Question label |<span style="color:teal">**Requestor Department**</span>
+    Mandatory | **Read-only**
+    Additional Details >> Source Table | **User \[sys_user]**
+    Auto-populate >> depends on | **Requestor** 
+    Auto-populate >> field that contains the value | **Department**
+
+    The steps looks like the follows:
+
+    ![relative](images/ex2/GIF01.gif)
+
+1. Repeat inserting read-only information about the requestor on the form
+
+    Name | Selection / Values
+    -------------- | --------------
+    Question type | **Choice**
+    Question subtype | **Record reference**
+    Map to a specific field on the table | **Checked** 
+    Table field | **Approver** 
+    Question label |<span style="color:teal">**Approver**</span>
+    Mandatory | **Read-only**
+    Additional Details >> Source Table | **User \[sys_user]**
+    Auto-populate >> depends on | **Requestor** 
+    Auto-populate >> field that contains the value | **Manager**
+
+    The steps looks like the follows:
+
+    ![relative](images/ex2/GIF02.gif)
+
+    Click **Insert Question** button. 
+
 {:style="counter-reset:none"}
 1.  Repeat inserting questions in the WFA Request container:
 
@@ -147,6 +201,10 @@ From last exercise, we have configured the form for back office use. In this sec
     Mandatory | **Checked**
 
     ![relative](images/ex2/21.png)
+
+    The steps looks like the follows:
+
+    ![relative](images/ex2/GIF03.gif)
     
 {:style="counter-reset:none"}
 1.  Repeat inserting questions in the WFA Request container:
@@ -179,8 +237,20 @@ From last exercise, we have configured the form for back office use. In this sec
     Question label |<span style="color:teal">**Please provide a justification for your WFA request**</span>
 
     ![relative](images/ex2/24.png)
-    
-    
+
+{:style="counter-reset:none"}
+1.  Up to this point, this is what your Quetions look like:
+
+    ![relative](images/ex2/24a.png)   
+
+{:style="counter-reset:none"}
+1.  Click the **Preivew** button to preview the record producer, it should look like this"
+
+    ![relative](images/ex2/24b.png)
+
+{:style="counter-reset:none"}
+1.  Close the **Preview**, and click **Continue to Settings** button
+
 {:style="counter-reset:none"}
 1.  From Settings, Check **Hide 'Add to wishlist' button** and Check **Hide attachment button**.  Click **Continue to Access** button. 
 
@@ -250,9 +320,11 @@ From last exercise, we have configured the form for back office use. In this sec
 
     ![relative](images/ex2/56.png)
 
+## Configure Requestor as Logged in User
+{: .text-blue-100}
 
-{:style="counter-reset:none"}
-1.  Return to ServiceNow Platform home page, you can do so by visiting the base URL (i.e. **http://<span style="color:teal">\[replace_with_your_instance_ID\]</span>.service-now.com**) in a new browser tab.  
+{:style="counter-reset:1"}
+1.  Return to ServiceNow Platform home page, you can do so by visiting the base URL  in a new browser tab.  For example, **http://<span style="color:teal">\[replace_with_your_instance_ID\]</span>.service-now.com**
 
     From the **All** navigator, search for <span style="color:teal">**Studio**</span>, and select **Studio**.  This will launch the pro-coder Studio tool.  
 
@@ -287,7 +359,7 @@ From last exercise, we have configured the form for back office use. In this sec
 
     ![relative](images/ex2/44.png)
 
-    Click the **Update** button. 
+    Click the **Submit** button. 
 
 {:style="counter-reset:none"}
 1.  Close the **Studio** browser tab. 
