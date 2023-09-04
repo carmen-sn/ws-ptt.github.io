@@ -21,14 +21,14 @@ In this section we XXXXXXX
 {:style="counter-reset:none"}
 1.  
 
-    ![relative](/images/ex4/01.png)
+    ![relative](images/ex4/01.png)
 
 {:style="counter-reset:none"}
 1.  
 
-    ![relative](/images/ex4/02.png)
+    ![relative](images/ex4/02.png)
 
 {:style="counter-reset:none"}
 1.  
 
-    ![relative](/images/ex4/03.png)
+    ![relative](images/ex4/03.png)

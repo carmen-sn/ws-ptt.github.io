@@ -47,4 +47,4 @@ In this section we will test the record produce form created in Exercise 2. We w
 
 
 
-[Next Exercise 4](/pages/ex4.html){: .btn .btn-purple }
+[Next Exercise 4](pages/ex4.html){: .btn .btn-purple }
