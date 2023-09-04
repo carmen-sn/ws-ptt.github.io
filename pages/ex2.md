@@ -18,32 +18,32 @@ From last exercise, we have configured the form for back office use. In this sec
 {: .text-blue-100}
 1.  Return to the AES **App Home** tab.  Click **+Add** next to the section Experience.
 
-    ![relative](/images/ex2/01.png)
+    ![relative](images/ex2/01.png)
 
 {:style="counter-reset:none"}
 1.  On the **_What type of experience do you want to add to your app?_** page, select **Record producer**. Click **Begin**.
 
-    ![relative](/images/ex2/02.png)
+    ![relative](images/ex2/02.png)
 
 {:style="counter-reset:none"}
 1.  On the **_Let's set up your record producter._** page, name the record producer <span style="color:teal"> **PTT WFA Requests** </span>, and for description, enter <span style="color:teal"> **Fill in this form to submit a Work From Anywhere (WFA) request.** </span>.  Click **Continue**.
 
-    ![relative](/images/ex2/03.png)
+    ![relative](images/ex2/03.png)
 
 {:style="counter-reset:none"}
 1. On the **_Success! You added a record producer_** page, click **Edit record producer** button. 
 
-    ![relative](/images/ex2/04.png)
+    ![relative](images/ex2/04.png)
 
 {:style="counter-reset:none"}
 1. Navigate the steps of the record producers in the order as shown on the left side bar menu.  The right sidebar provides information of each step.  __Optionally__, enter item details as <span style="color:teal">**Your request for WFH will be routed to the approver.  Once approved, a PDF attachment will be generated for download.** </span> and/or attach an icon. 
 
-    ![relative](/images/ex2/05.png)
+    ![relative](images/ex2/05.png)
 
 {:style="counter-reset:none"}
 1. From top right, cilck the **Save** button, then click the **Preview** button. Review the header of your eForm.  Close the Preview but clicking the **X** on the top right. 
 
-    ![relative](/images/ex2/06.png)
+    ![relative](images/ex2/06.png)
 
 {:style="counter-reset:none"}
 1. Click the **Continue to Destination** button on the bottom right of the Details page. 
@@ -51,7 +51,7 @@ From last exercise, we have configured the form for back office use. In this sec
 {:style="counter-reset:none"}
 1. On the **_Destination_** page, search and select <span style="color:teal">**WFA Requests**</span> as the Table for record submission. 
 
-    ![relative](/images/ex2/07.png)
+    ![relative](images/ex2/07.png)
 
 {:style="counter-reset:none"}
 1. Click the **Continue to Location** button on the bottom right of the Destination page. 
@@ -59,16 +59,16 @@ From last exercise, we have configured the form for back office use. In this sec
 {:style="counter-reset:none"}
 1. On the **_Location_** page, click **Browse Catalogs**, select **Service Catalog**, click the **>** arrow.  Click **Save selections** button. 
 
-    ![relative](/images/ex2/08.gif)
+    ![relative](images/ex2/08.gif)
 
 {:style="counter-reset:none"}
 1.  On the **_Location_** page, click **Browse Categories**, select  **Can We Help You?**, click the **>** arrow.  Click **Save selections** button. 
 
-    ![relative](/images/ex2/09.gif)
+    ![relative](images/ex2/09.gif)
 
     This is what location should look like:
 
-    ![relative](/images/ex2/10.png)
+    ![relative](images/ex2/10.png)
 
 {:style="counter-reset:none"}
 1.  Click **Continue to Questions** button.
@@ -76,30 +76,30 @@ From last exercise, we have configured the form for back office use. In this sec
 {:style="counter-reset:none"}
 1.  Click the **down arrow** on the **Insert new question** button, select **Two column container**.
 
-    ![relative](/images/ex2/11.png)
+    ![relative](images/ex2/11.png)
 
     Insert <span style="color:teal">**WFA Request**</span> as the Title, click **Submit**. 
 
-    ![relative](/images/ex2/12.png)
+    ![relative](images/ex2/12.png)
 
 {:style="counter-reset:none"}
 1.  Click the **+ Insert** button beneath WFA Request container. Select **Single column container**.
 
-    ![relative](/images/ex2/14.png)
+    ![relative](images/ex2/14.png)
 
     Insert <span style="color:teal">**Details**</span> as the Title, click **Submit**. 
 
-    ![relative](/images/ex2/15.png)
+    ![relative](images/ex2/15.png)
     
 {:style="counter-reset:none"}
 1.  This is what your questions layout should look like after you click on the **arrow** to expand the containers.
 
-    ![relative](/images/ex2/16.png)
+    ![relative](images/ex2/16.png)
     
 {:style="counter-reset:none"}
 1.  Within the WFA Request container, click **+ Insert** button, select **New question**. 
 
-    ![relative](/images/ex2/17.png)
+    ![relative](images/ex2/17.png)
     
 {:style="counter-reset:none"}
 1.  Fill out the question details as below:
@@ -115,7 +115,7 @@ From last exercise, we have configured the form for back office use. In this sec
 
     Click **Continue to Choices** button.
 
-    ![relative](/images/ex2/18.png)
+    ![relative](images/ex2/18.png)
     
 {:style="counter-reset:none"}
 1.  From the Choices tab, in Settings, **Check** the **Include non choice**. In the Available Choices section, enter:
@@ -127,12 +127,12 @@ From last exercise, we have configured the form for back office use. In this sec
 
     Click **Continue to Default value button**. 
 
-    ![relative](/images/ex2/19.png)
+    ![relative](images/ex2/19.png)
     
 {:style="counter-reset:none"}
 1.  From the Default value tab, select **WFA for self** as the Default value.  Note the option to preview the question on the right sidebar, try out the preview.  Click **Insert question** button. 
 
-    ![relative](/images/ex2/20.png)
+    ![relative](images/ex2/20.png)
     
 {:style="counter-reset:none"}
 1.  Repeat inserting questions in the WFA Request container:
@@ -146,7 +146,7 @@ From last exercise, we have configured the form for back office use. In this sec
     Question label |<span style="color:teal">**Please specify the start date of WFA**</span>
     Mandatory | **Checked**
 
-    ![relative](/images/ex2/21.png)
+    ![relative](images/ex2/21.png)
     
 {:style="counter-reset:none"}
 1.  Repeat inserting questions in the WFA Request container:
@@ -160,12 +160,12 @@ From last exercise, we have configured the form for back office use. In this sec
     Question label |<span style="color:teal">**Please specify the end date of WFA**</span>
     Mandatory | **Checked**
 
-    ![relative](/images/ex2/22.png)
+    ![relative](images/ex2/22.png)
     
 {:style="counter-reset:none"}
 1.  Up to this point, this is what your Quetions look like:
 
-    ![relative](/images/ex2/23.png)
+    ![relative](images/ex2/23.png)
     
 {:style="counter-reset:none"}
 1.  Let's add questions in the **Details** container.  The details of the new question:
@@ -178,23 +178,23 @@ From last exercise, we have configured the form for back office use. In this sec
     Table field | **Description** 
     Question label |<span style="color:teal">**Please provide a justification for your WFA request**</span>
 
-    ![relative](/images/ex2/24.png)
+    ![relative](images/ex2/24.png)
     
     
 {:style="counter-reset:none"}
 1.  From Settings, Check **Hide 'Add to wishlist' button** and Check **Hide attachment button**.  Click **Continue to Access** button. 
 
-    ![relative](/images/ex2/30.png)
+    ![relative](images/ex2/30.png)
     
 {:style="counter-reset:none"}
 1.  From Access, select **Available for** as **Any User**.  Click **Continue to Review and Submit**. 
 
-    ![relative](/images/ex2/31.png)
+    ![relative](images/ex2/31.png)
     
 {:style="counter-reset:none"}
 1.  Click **Submit**
 
-    ![relative](/images/ex2/32.png)
+    ![relative](images/ex2/32.png)
     
     
 ## Optional: Display requestor info in the form
@@ -203,7 +203,7 @@ From last exercise, we have configured the form for back office use. In this sec
 {:style="counter-reset:1"}
 1.  In AES, return to **App Home** tab, click open the **PTT WFA Requests** record producer.
 
-    ![relative](/images/ex2/50.png)
+    ![relative](images/ex2/50.png)
     
 {:style="counter-reset:1"}
 1.  From the menu, click **Questions**, then add a new question in the **WFA Request** container:
@@ -219,12 +219,12 @@ From last exercise, we have configured the form for back office use. In this sec
 
     This is what the question look like:
 
-    ![relative](/images/ex2/51.png)
+    ![relative](images/ex2/51.png)
     
 {:style="counter-reset:1"}
 1.  Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Insert Question**.
 
-    ![relative](/images/ex2/52.png)
+    ![relative](images/ex2/52.png)
     
     Name | Selection / Values
     -------------- | --------------
@@ -233,22 +233,22 @@ From last exercise, we have configured the form for back office use. In this sec
     Question label |<span style="color:teal">**Requestor Department**</span>
     Read-only | **Checked**
 
-    ![relative](/images/ex2/53.png)
+    ![relative](images/ex2/53.png)
     
     Click **Additional details** tab, select **User \[sys_user\]** as the Source table.  Click **Insert Question**.
 
-    ![relative](/images/ex2/54.png)
+    ![relative](images/ex2/54.png)
     
     Click **Auto-populate** tab, **select the question this depends on** as **Requestor \| sys_user]**, and **Select the filed that contains the value you want to set** as **Department**
 
-    ![relative](/images/ex2/55.png)
+    ![relative](images/ex2/55.png)
 
     Click **Insert Question**.
     
 {:style="counter-reset:none"}
 1.  The Questions should look similar to the below. Click **Save**.
 
-    ![relative](/images/ex2/56.png)
+    ![relative](images/ex2/56.png)
 
 
 {:style="counter-reset:none"}
@@ -256,22 +256,22 @@ From last exercise, we have configured the form for back office use. In this sec
 
     From the **All** navigator, search for <span style="color:teal">**Studio**</span>, and select **Studio**.  This will launch the pro-coder Studio tool.  
 
-    ![relative](/images/ex2/40.png)
+    ![relative](images/ex2/40.png)
     
 {:style="counter-reset:none"}
 1.  From Select Application window, search for <span style="color:teal">**PTT**</span> and click on the Application **PTT**.
 
-    ![relative](/images/ex2/41.png)
+    ![relative](images/ex2/41.png)
     
 {:style="counter-reset:none"}
 1.  Note that the **Application Explore** on the left sidebar shows the entire structure of the PTT application you have created using **AES** low code tool.  In the **Service Catalog > Record Producers** section, click **PTT WFA Requests** to open the record producer we previosly created using AES. 
 
-    ![relative](/images/ex2/42.png)
+    ![relative](images/ex2/42.png)
 
 {:style="counter-reset:none"}
 1.  From the related list, select the C**atalog Client Scripts** tab. Click **New** to create a new client script.
 
-    ![relative](/images/ex2/43.png)
+    ![relative](images/ex2/43.png)
 
 {:style="counter-reset:none"}
 1.  From the Catalog Client Script form, enter the following info:
@@ -285,7 +285,7 @@ From last exercise, we have configured the form for back office use. In this sec
     Applies on Target Record| **Checked**
     Script |<span style="color:teal">**g_form.setValue('requestor', g_user.userID);**</span>
 
-    ![relative](/images/ex2/44.png)
+    ![relative](images/ex2/44.png)
 
     Click the **Update** button. 
 

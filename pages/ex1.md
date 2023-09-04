@@ -241,9 +241,11 @@ We will now create a table to capture the WFA requests.
 
     ![relative](images/ex1/GIF07.gif) 
 
-    Preview the form, it should be similar to the below:
+    **Preview** the form, it should be similar to the below:
 
     ![relative](images/ex1/25.png)
+    
+    Close the **Preview** tab. 
 
 
 Congratulations, you have completed Exercise 1 and now have a complete way to store the WFA requests from your employees.
