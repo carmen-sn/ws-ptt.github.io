@@ -75,9 +75,10 @@ In this section we will test the record produce form created in Exercise 2. We w
     ![relative](images/ex3/07a.png)
 
 {:style="counter-reset:none"}
-1.  
+1.  Go back to the base URL of the instance.  Click on the top-left Profile icon, from the drop-down select **End Impersonation**.  
 
-    ![relative](images/ex3/0@.png)
+    ![relative](images/ex3/16.png)
+
 
 
 
