@@ -18,7 +18,7 @@ In this section we will test the record produce form created in Exercise 2. We w
 {: .text-blue-100}
 1.  Visit the ServiceNow **Employee Center**, you can do so by visiting the base URL adding **/esc** to the end (i.e. **http://<span style="color:teal">\[replace_with_your_instance_ID\]</span>.service-now.com<span style="color:teal">/esc</span>**) in a new browser tab.  
 
-{:style="counter-reset:1"}
+{:style="counter-reset:none"}
 1.  In the **How can we help?** search bar, search for <span style="color:teal">**wfa request**</span>. 
 
     ![relative](/images/ex3/01.png)

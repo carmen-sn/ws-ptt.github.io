@@ -109,34 +109,70 @@ We will now create a table to capture the WFA requests.
 > Note: There are several ways to add fields to a table, from the spreadsheet view, field view or form view.  From the **Field data view**, you can see that there are 69 data fields extended from the task table.  The most commonly used data fields, such as **Approval**, **Approval history**, task **State**, **Comments and Work notes** (audit log), **Additional comments** (log input) will be useful for the purpose of our application. Get familiar with the extended data fields. 
 
 {:style="counter-reset:none"}
-1.  Click **+ Add new field**. 
+1. Let's hide the extended data fields before we add more data fields. Click **Filter options** button and select **Hide extended fields**.
 
-    ![relative](/images/ex1/14c.png)  
+    ![relative](/images/ex1/14b.png)  
+
+    With the extended data fields hidden, it's easier to note our newly added data fields with a clean palette.
+
+    ![relative](/images/ex1/14bb.png)  
+
 
 {:style="counter-reset:none"}
 1.  Let's add the following list of data fields:
 
     Column label | Type
     -------------- | --------------
-    Request type | **Choice**, Choice Type is **Dropdown with -- None --**, Choices Labels are **WFA for self**, **WFA for Region**, Default value is **WFA for self**
-    Start date | Date
-    End date | Date 
-    Approval date | Date 
+    <span style="color:teal">Request type</span> | **Choice**, Choice Type is **Dropdown with -- None --**, Choices Labels are **WFA for self**, **WFA for Region**, Default value is **WFA for self**
+    <span style="color:teal">Status</span> | **Choice**, Choice Type is **Dropdown with -- None --**, Choices Labels are **Waiting for Approval**, **Waiting for Signature**, **Completed**, **Rejected**, Default value is **Waiting for Approval**
+    <span style="color:teal">Start date</span> | Date
+    <span style="color:teal">End date</span> | Date 
+    <span style="color:teal">Approval date</span> | Date 
+    <span style="color:teal">Approver</span> | **Reference** to the **User \[sys_user]** table
+    <span style="color:teal">Requestor</span> | **Reference** to the **User \[sys_user]** table
 
-    ![relative](/images/ex1/14e.gif)  
+{:style="counter-reset:none"}
+1.  Click **+ Add new field**. 
 
-    The added data fields should look similar to the following:
+    ![relative](/images/ex1/14c.png)  
+    
+{:style="counter-reset:none"}
+1.  See the Animated GIF below on how the <span style="color:teal">**Request type**</span> field is added:
+
+    ![relative](/images/ex1/GIF01.gif)  
+
+{:style="counter-reset:none"}
+1.  See the Animated GIF below on how the <span style="color:teal">**Status**</span> field is added:
+
+    ![relative](/images/ex1/GIF02.gif)  
+
+{:style="counter-reset:none"}
+1.  See the Animated GIF below on how the <span style="color:teal">**Start date**</span>, <span style="color:teal">**End date**</span>, <span style="color:teal">**Approval date**</span> fields are added:
+
+    ![relative](/images/ex1/GIF03.gif)  
+
+{:style="counter-reset:none"}
+1.  See the Animated GIF below on how the <span style="color:teal">**Approver**</span>, <span style="color:teal">**Requestor**</span> **reference** type fields are added:
+
+    ![relative](/images/ex1/GIF04.gif)  
+
+{:style="counter-reset:none"}
+1.  The added data fields should look similar to the following:
 
     ![relative](/images/ex1/14f.png)
 
-    Request type data field's Choice configurations is as follows:
+    Example of <span style="color:teal">**Request type**</span> data field's Choice configurations is as follows:
 
     ![relative](/images/ex1/14g.png)
 
 1. Click **Save**. 
     
-{:style="counter-reset:none"}
-1.  To configure the eForm, click on the **Forms** pill
+
+## Create the Backoffice eForm 
+{: .text-blue-100}
+
+{:style="counter-reset:1"}
+1.  To configure the backoffice eForm (i.e. to be used in an Agent Workspace), click on the **Forms** pill.  
 
     ![relative](/images/ex1/15.png)  
 
@@ -145,12 +181,13 @@ We will now create a table to capture the WFA requests.
 - Priority
 - Configuration item
 - Parent
+- Short description
 
     ![relative](/images/ex1/16.png)  
 
     Here is a clip to show the steps in action:
 
-    ![relative](/images/ex1/17.gif)  
+    ![relative](/images/ex1/GIF05.gif)  
 
     The form should look like this
 
@@ -161,9 +198,12 @@ We will now create a table to capture the WFA requests.
 
 {:style="counter-reset:none"}
 1.  We will add the following list of data fields to the form:
+- Requestor
+- Approver
+- Request type
+- Status
 - Start date
 - End date
-- Request type
 - Approval date 
 
     From the **_Add form elements_** left menu, search for **Request type**, drag and drop the Request type data field to the form view. 
@@ -172,7 +212,7 @@ We will now create a table to capture the WFA requests.
 
     Here is a clip to show the steps in action:
 
-    ![relative](/images/ex1/20.gif)  
+    ![relative](/images/ex1/GIF06.gif)  
 
     The form should look like this
 
@@ -182,13 +222,30 @@ We will now create a table to capture the WFA requests.
 1.  Click the **Save** button.
 
 {:style="counter-reset:none"}
-1.  Let's update the **Assigned to** data field label to <span style="color:teal">**Approver**</span>.  Select **Assigned to** field in the form editor. From the **Properties"** tab of the field configurations, change **Label** from **Assigned to** to <span style="color:teal">**Approvers**</span>
-
-   ![relative](/images/ex1/22.png) 
-
-{:style="counter-reset:none"}
-1.  Click the **Save** button.  Click **Preview** to preview the form. Close the **Preview - Form** tab.
+1.  Click **Preview** to preview the form. Close the **Preview - Form** tab.
 
    ![relative](/images/ex1/23.png) 
+
+{:style="counter-reset:none"}
+1.  Let's make a few data field read-only as they will only be changed by the workflow or process configurations.  The **read-only** data fields includes 
+- Requestor
+- Approver
+- Approval date
+- Assigned to
+
+    Click on the **Requestor** data field, from the Properties sidebar, check **read-only**.
+
+    ![relative](/images/ex1/24.png)
+
+    See the Animated GIF below on how the <span style="color:teal">**read-only**</span> fields are configured:
+
+    ![relative](/images/ex1/GIF07.gif) 
+
+    Preview the form, it should be similar to the below:
+
+    ![relative](/images/ex1/25.png)
+
+
+Congratulations, you have completed Exercise 1 and now have a complete way to store the WFA requests from your employees.
 
 [Next Exercise 2](/pages/ex2.html){: .btn .btn-purple }
