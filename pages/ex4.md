@@ -105,4 +105,37 @@ nav_order: 5
 {:style="counter-reset:none"}
 1.  Close the **Preview**.  
 
+
+## Configure E-Signature Template
+{: .fs-9 .text-blue-100}
+
+{:style="counter-reset:1"}
+1. Check if all Signature plugins are installed.  From **All** navigator, search **plugins**, under System definition, select **plugins**
+
+     ![relative](images/ex4/10.png)
+
+{:style="counter-reset:none"}
+1. Search **signature**, check that all **Signature pad** related components are **Installed**, if not, click **Install** and **Activate**.  
+
+    ![relative](images/ex4/11.png)
+
+{:style="counter-reset:none"}
+1. From **All** navigator, seach and select **E-Signature Template**
+
+    ![relative](images/ex4/12.png)
+
+{:style="counter-reset:none"}
+1. Click **New** button to add a new E-Signature Template.  Use the same settings as below:
+
+    ![relative](images/ex4/13.png)
+
+    Note that you will need to add a new **Managed Document** with the configurations shown as below:
+
+    ![relative](images/ex4/13a.png)
+
+{:style="counter-reset:none"}
+1. Click **Submit**.
+
+
+
 [Next Exercise 5](/pages/ex5.html){: .btn .btn-purple }
