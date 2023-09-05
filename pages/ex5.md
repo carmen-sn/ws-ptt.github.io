@@ -74,12 +74,80 @@ nav_order: 6
 
 
 {:style="counter-reset:none"}
-1.  
+1. Add **Update Record** action within the **IF** flow logic.
 
-    ![relative](images/ex5/.png)
+    ![relative](images/ex5/GIF09.gif)
+
+    The **Update Record** action should look this this:
+
+    ![relative](images/ex5/09.png)
 
 {:style="counter-reset:none"}
-1.  
+1.  Add **Update Record** action within the **ELSE IF** flow logic.
+
+    The **Update Record** action should look this this:
+
+    ![relative](images/ex5/10.png)
+    
+{:style="counter-reset:none"}
+1.  **Test** the workflow. After reviewing the test results, click **Cancel** from the Test flow modal.
+
+    ![relative](images/ex5/11.png)
+
+    The flow is **waiting for approval**
+
+    ![relative](images/ex5/12.png)
+
+{:style="counter-reset:none"}
+1.  From the **All** Navigator, search for **My Approvals**, select Self-Service **My Approvals**.
+
+    ![relative](images/ex5/13.png)
+
+    Remove the filter breadcrumbs by clicking at the **All**. 
+
+    ![relative](images/ex5/14.png)
+
+    You should see the list of approval requests on the platform, please sort by Created field. Click **Requested** to open the approval record. 
+
+    ![relative](images/ex5/15.png)
+
+{:style="counter-reset:none"}
+1.  Change the state to **Approved** and click **Update** button. The record is now approved. 
+
+    ![relative](images/ex5/16.png)
+
+{:style="counter-reset:none"}
+1.  Access **Flow Designer** from the **All** navigator
+
+    ![relative](images/ex5/17.png)
+
+    Click **New** and select **Action** to create an reusable action. 
+
+    ![relative](images/ex5/18.png)
+
+    Give the action a name.  Click **Submit**
+
+    ![relative](images/ex5/19.png)
+
+{:style="counter-reset:none"}
+1.  Create 3 **Inputs** for the action
+
+    ![relative](images/ex5/20.png)
+
+{:style="counter-reset:none"}
+1.  Add a **Script** step after the inputs. The script 
+
+```markdown
+outputs.attachmentid = new sn_doc.GenerateDocumentAPI().generateDocumentForTask(inputs.record_id, inputs.doc_template_id, inputs.file_name);  
+```
+    ![relative](images/ex5/GIF21.gif)
+
+    The result should look like this: 
+
+   ![relative](images/ex5/21.png)
+
+{:style="counter-reset:none"}
+1.  Click **Publish**
 
     ![relative](images/ex5/.png)
 

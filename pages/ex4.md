@@ -105,6 +105,14 @@ nav_order: 5
 {:style="counter-reset:none"}
 1.  Close the **Preview**.  
 
+{:style="counter-reset:none"}
+1. Right click on the top horizontal menu grey bar, select **Copy SYS ID**
+
+    ![relative](images/ex4/09a.png)
+
+    Make note of the copied SYSID and keep in for Exercise 5. 
+
+
 
 ## Configure E-Signature Template
 {: .fs-9 .text-blue-100}
