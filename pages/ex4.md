@@ -103,8 +103,6 @@ nav_order: 5
     ![relative](images/ex4/09.png)
 
 {:style="counter-reset:none"}
-1.  Close the **Preview**.  Return back to App Engine Studio **AES Home** tab.
-
-
+1.  Close the **Preview**.  
 
 [Next Exercise 5](/pages/ex5.html){: .btn .btn-purple }
