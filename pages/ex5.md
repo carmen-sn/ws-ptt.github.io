@@ -149,19 +149,20 @@ outputs.attachmentid = new sn_doc.GenerateDocumentAPI().generateDocumentForTask(
 {:style="counter-reset:none"}
 1.  Click **Publish**
 
-    ![relative](images/ex5/.png)
+{:style="counter-reset:none"}
+1.  Return to AES flow designer and add the Generate PDF action within the **IF** flow logic.
+
+    ![relative](images/ex5/GIF22.gif)
+
+    You flow should look like this
+
+    ![relative](images/ex5/22.png)
 
 {:style="counter-reset:none"}
-1.  
+1. **Activate** your workflow.
 
-    ![relative](images/ex5/.png)
 
-{:style="counter-reset:none"}
-1.  
 
-    ![relative](images/ex5/.png)
 
-{:style="counter-reset:none"}
-1.  
 
-    ![relative](images/ex5/.png)
+[Next Exercise 6](/pages/ex6.html){: .btn .btn-purple }
